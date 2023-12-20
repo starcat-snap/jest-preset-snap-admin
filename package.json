@@ -1,0 +1,29 @@
+{
+  "name": "@snap-admin/jest-preset-snap-admin",
+  "version": "4.2.2",
+  "description": "Jest Test preset for SnapAdmin administration unit tests",
+  "main": "jest-preset.js",
+  "keywords": [
+    "jest",
+    "unit",
+    "test",
+    "unit-test",
+    "snap-admin",
+    "administration"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
